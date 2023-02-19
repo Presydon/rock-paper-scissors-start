@@ -55,19 +55,19 @@ if your_choice == 0 and computer_choice == 2:
   print("You win")
 elif your_choice == 0 and computer_choice == 1:
   print("You lose")
-elif your_choice == computer_choice:
+elif your_choice == 0 and computer_choice == 0:
   print("Draw")
 
 if your_choice == 1 and computer_choice == 0:
   print("You win")
 elif your_choice == 1 and computer_choice == 2:
   print("You lose")
-elif your_choice == computer_choice:
+elif your_choice == 1 and computer_choice == 1:
   print("Draw")
 
 if your_choice == 2 and computer_choice == 0:
   print("You win")
-elif your_choice == 1 and computer_choice == 2:
+elif your_choice == 2 and computer_choice == 1:
   print("You lose")
-elif your_choice == computer_choice:
+elif your_choice == 2 and computer_choice == 2:
   print("Draw")
